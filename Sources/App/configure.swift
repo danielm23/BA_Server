@@ -43,15 +43,15 @@ public func configure(
     
     // Configure a database
     var databases = DatabasesConfig()
-    //let hostname = Environment.get("104.248.17.84") ?? "104.248.17.84"
-    //let username = Environment.get("vapor") ?? "vapor"
-    //let databaseName = Environment.get("vapor") ?? "vapor"
-    //let password = Environment.get("wUvX04C45818j489") ?? "wUvX04C45818j489"
+    let hostname = Environment.get("104.248.17.84") ?? "104.248.17.84"
+    let username = Environment.get("vapor") ?? "vapor"
+    let databaseName = Environment.get("vapor") ?? "vapor"
+    let password = Environment.get("wUvX04C45818j489") ?? "wUvX04C45818j489"
     
-    let hostname = Environment.get("localhost") ?? "localhost"
-    let username = Environment.get("daniel") ?? "daniel"
-    let databaseName = Environment.get("daniel") ?? "daniel"
-    let password = Environment.get("") ?? nil
+    //let hostname = Environment.get("localhost") ?? "localhost"
+    //let username = Environment.get("daniel") ?? "daniel"
+    //let databaseName = Environment.get("daniel") ?? "daniel"
+    //let password = Environment.get("") ?? nil
     let databaseConfig = PostgreSQLDatabaseConfig(
         hostname: hostname,
         username: username,
