@@ -48,6 +48,9 @@ public func routes(_ router: Router) throws {
     let categoriesController = CategoriesController()
     try router.register(collection: categoriesController)
     
+    let messagesController = MessagesController()
+    try router.register(collection: messagesController)
+    
     let geolocationsController = GeolocationsController()
     try router.register(collection: geolocationsController)
     

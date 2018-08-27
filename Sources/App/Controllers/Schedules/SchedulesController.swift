@@ -13,7 +13,6 @@ struct SchedulesController: RouteCollection {
         schedulesRoute.get(Schedule.parameter, "categories", use: getCategoriesHandler)
         schedulesRoute.get(Schedule.parameter, "tracks", use: getTracksHandler)
         schedulesRoute.get(Schedule.parameter, "messages", use: getMessagesHandler)
-        // schedulesRoute.get(Schedule.parameter, "events", Event.parameter, "categories",use: getEventCategoriesHandler)
 
     }
     
